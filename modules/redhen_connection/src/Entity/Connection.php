@@ -33,7 +33,7 @@ use Drupal\redhen_contact\Entity\Contact;
  *   ),
  *   bundle_label = @Translation("Connection type"),
  *   handlers = {
- *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
+ *     "view_builder" = "Drupal\redhen_connection\ConnectionViewBuilder",
  *     "list_builder" = "Drupal\redhen_connection\ConnectionListBuilder",
  *     "views_data" = "Drupal\redhen_connection\Entity\ConnectionViewsData",
  *
@@ -85,7 +85,7 @@ class Connection extends ContentEntityBase implements ConnectionInterface {
       '@label2' => $this->get('endpoint_2')->entity->label(),
     ));
   }
-  
+
   /**
    * {@inheritdoc}
    */

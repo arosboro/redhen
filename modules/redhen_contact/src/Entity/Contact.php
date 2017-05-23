@@ -31,7 +31,7 @@ use Drupal\user\UserInterface;
  *   ),
  *   bundle_label = @Translation("Contact type"),
  *   handlers = {
- *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
+ *     "view_builder" = "Drupal\redhen_contact\ContactViewBuilder",
  *     "list_builder" = "Drupal\redhen_contact\ContactListBuilder",
  *     "views_data" = "Drupal\views\EntityViewsData",
  *

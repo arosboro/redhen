@@ -29,7 +29,7 @@ use Drupal\redhen_org\OrgInterface;
  *   ),
  *   bundle_label = @Translation("Organization type"),
  *   handlers = {
- *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
+ *     "view_builder" = "Drupal\redhen_org\OrgViewBuilder",
  *     "list_builder" = "Drupal\redhen_org\OrgListBuilder",
  *     "views_data" = "Drupal\views\EntityViewsData",
  *

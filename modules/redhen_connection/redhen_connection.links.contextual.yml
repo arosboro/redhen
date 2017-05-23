@@ -1,0 +1,11 @@
+entity.redhen_connection.edit_form:
+  title: 'Edit'
+  group: redhen_connection
+  route_name: entity.redhen_connection.edit_form
+  weight: 10
+
+entity.redhen_connection.delete_form:
+  title: 'Delete'
+  group: redhen_connection
+  route_name: entity.redhen_connection.delete_form
+  weight: 20
